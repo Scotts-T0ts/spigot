@@ -1,0 +1,373 @@
+#title{
+
+  border-style: solid;
+  border-width: 0;
+  background-clip: border-box;
+  border-color: #944A9D;
+  border-bottom-width: 8px;
+}
+
+
+
+h1 {  font-family: "Montserrat";
+font-size: 3rem;
+line-height: 1.5;
+font-weight: 900;
+text-align: center;
+padding-top: 3%;
+}
+
+.container-fluid{
+padding-bottom: 15%;
+
+
+}
+.container{
+  padding-top:0%;
+  padding-bottom:0%;
+  padding-left: 0%;
+
+}
+body{
+  font-family: Montserrat;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+  padding-top:0;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+.nav-item{
+  padding: 0 18px;
+  font-family: "Montserrat-Thin";
+  font-size: 1.2rem;
+
+}
+
+
+#Features{
+  border-style: solid;
+  border-width: 0;
+  background-clip: border-box;
+  border-color: #944A9D;
+  border-bottom-width: 8px;
+
+}
+
+
+h3{
+  font-family: "Montserrat";
+    font-weight: bold;
+  text-align: center;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.icon{
+  padding-bottom: 5%;
+  color: #ef8172;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+.image{
+  height: 100px;
+  width:100px;
+  border-radius: 50%;
+}
+
+#testimonials{
+
+  text-align: center;
+
+  
+}
+
+h2{
+  font-family: "Montserrat";
+  font-size: 2rem;
+  padding-top: 4%;
+
+}
+
+
+
+
+.card-body{
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 3%;
+}
+.plan{
+  text-align: center;
+  padding: 4%;
+}
+
+@media (max-width: 1028px)  {
+  .title image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title{
+    text-align: center;
+  }
+}
+
+
+#footer{
+  text-align: right;
+
+}
+.social-icon{
+  padding: 0% 0% 0% 2%;
+}
+p5{  font-family: "Montserrat";
+text-align: center;
+font-size: 1rem;
+line-height: 1.5;
+font-weight: 500;
+
+}
+.REGISTER {
+padding-top: 5%;
+}
+.robowars{
+  padding-top: 5%;
+}
+.land{
+  padding-top: 3%;
+  padding-bottom: 7%;
+}
+
+p2{
+  font-family: serif;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 500;
+  font-style: italic;
+
+}
+.card{
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  border-radius: 15px;
+}
+.card:hover{
+  background-color: rgb(62, 62, 62);
+  color:white;
+  cursor: pointer;
+  transform: scale(1.03);
+}
+.card-title{
+  padding-top: 20%;
+  padding-top: 20%;
+  font-weight: bold;
+}
+.card-text{
+  padding-top: 30%;
+  padding-bottom: 55%;
+}
+
+.btn{
+  font-weight: bold;
+  color: purple;
+  outline-color: purple;
+}
+
+p10{
+
+
+  font-size: 2rem;
+  padding-top: 0px;
+  padding-bottom: 2px;
+  font-weight: bold;
+
+}
+p11{
+font-size: 1.2rem;
+}
+
+img{
+  display: flex;
+
+  max-width:100%;
+  height: 250px;
+  padding:0%;
+
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+}
+
+.gallery{
+  background-color: #dbddf1;
+
+}
+
+.galllery-item{
+  padding top: 25px;
+
+}
+
+.hovereffects{
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   cursor: default;
+   margin-bottom: 10px;
+}
+
+.hovereffects .overlay{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	background-color: rgba(0,0,0,0.5);
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out
+}
+
+.hovereffects img{
+	display: block;
+	position: relative;
+	-webkit-transition: all .4s linear;
+	transition: all .4s linear;
+}
+
+.hovereffects h2{
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	font-size: 17px;
+	background: rgba(0,0,0,0.6);
+	-webkit-transform: translateY(-100px);
+	-ms-transform: translateY(-100px);
+	transform: translateY(-100px);
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	padding: 10px;
+}
+
+.hovereffects a.info{
+	text-decoration: none;
+	display: inline-block;
+	text-transform: uppercase;
+	color: #fff;
+	border:1px solid #fff;
+	background-color: transparent;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	margin: 50px 0 0;
+	padding: 7px 14px;
+}
+
+.hovereffects p.{
+	text-decoration: none;
+	display: inline-block;
+	text-transform: uppercase;
+	color: #fff;
+	border:1px solid #fff;
+	background-color: transparent;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	margin: 50px 0 0;
+	padding: 7px 14px;
+}
+
+.hovereffects a.info:hover{
+	box-shadow: 0 0 5px #fff;
+
+}
+.hovereffects a.photo-text:hover{
+	box-shadow: 0 0 5px #fff;
+
+}
+
+.hovereffects:hover img{
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.hovereffects:hover .overlay{
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.hovereffects:hover h2, .hovereffects:hover a.info{
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-ms-transform: translateY(0);
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+
+.hovereffects:hover a.info{
+	-webkit-transition-delay: .2s;
+	transition-delay: .2s;
+}
+
+
+
+p7{
+
+
+  font-size: 2.5rem;
+  padding-top: 0px;
+  padding-bottom: 2px;
+  font-style: italic;
+  text-align: center;
+
+}
+
+p8{
+    font-family: "Montserrat";
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 500;
+  text-align: center;
+
+}
+
+
+p2{
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.nav-item{
+  font-weight: bold;
+}
+p{
+  text-align: CENTRE;
+}
